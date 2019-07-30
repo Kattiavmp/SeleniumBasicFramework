@@ -1,0 +1,2 @@
+# SeleniumBasicFramework
+Standart Selenium Framework
