@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="AlertTestTestSuite" verbose="1">
+
+	<listeners>
+		<listener
+			class-name="com.herokuapp.theinternet.base.TestListener"></listener>
+	</listeners>
+
+	<test name="AlertsTest">
+		<classes>
+			<class name="com.herokuapp.theinternet.alertstests.AlertsTests" />
+		</classes>
+	</test>
+
+</suite>
